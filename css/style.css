@@ -34,4 +34,25 @@ I want 1 coloumn to take up 1/4 of the space, 1 coloumn to take up 2/4 of the sp
     background-color: yellow;
     width: 98vw;
     height: 98vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 6px;
+}
+
+.lab1container {
+    
+
+}
+
+#lab1child1 {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+}
+
+#lab1child2 {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
 }

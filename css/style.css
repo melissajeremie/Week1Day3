@@ -57,7 +57,7 @@ I want 1 coloumn to take up 1/4 of the space, 1 coloumn to take up 2/4 of the sp
     font-family: courier new;
     font-size: 6em;
     border-radius: 10px;
-    /* grid-row: 1 / span 2; */
+    grid-row: 1 / span 2;
 }
 
 #c {

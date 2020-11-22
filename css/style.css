@@ -30,45 +30,39 @@ I want 1 coloumn to take up 1/4 of the space, 1 coloumn to take up 2/4 of the sp
     background-color: green;
 }
 
-/* styling for grid practice layouts 1-3 */
+/* Styling for grid practice layouts 1-3 */
+
+/* Layout 1  */
 
 #l1container {
     width: 98vw;
     height: 98vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 8px;
 }
 
-#a {
+#a1 {
     color: gray;
     background-color: mediumaquamarine;
     font-family: courier new;
     font-size: 6em;
     border-radius: 10px;
     grid-column: 1 / 3;
-    
 }
 
-#b {
+#b1 {
     color: gray;
     background-color: mediumaquamarine;
     font-family: courier new;
     font-size: 6em;
     border-radius: 10px;
-    grid-row: 1 / span 2;
+    grid-column: 3;
+    grid-row: 1 / 3;
 }
 
-#c {
-    color: gray;
-    background-color: mediumaquamarine;
-    font-family: courier new;
-    font-size: 6em;
-    border-radius: 10px;
-}
-
-#d {
+#c1 {
     color: gray;
     background-color: mediumaquamarine;
     font-family: courier new;
@@ -76,11 +70,126 @@ I want 1 coloumn to take up 1/4 of the space, 1 coloumn to take up 2/4 of the sp
     border-radius: 10px;
 }
 
+#d1 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+}
+/* end layout 1 */
+
+/* Layout 2 */
+
+#l2container {
+    width: 98vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#a2 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+    grid-column: 1 / 3;
+}
+
+#b2 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+    grid-column: 3 / 5;
+}
+
+#c2 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+    grid-row: 2;
+}
+
+#d2 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+    grid-column: 2 / 5;
+}
+
+#e2 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 6em;
+    border-radius: 10px;
+    grid-column: 1 / 5;
+}
+/* end styling for layout 2 */
+
+/* Layout 3 */
+
+#l3container {
+    width: 98vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+#header {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 3em;
+    border-radius: 10px;
+    grid-column: 1 / 5;
+}
+
+#sidebar {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 4em;
+    border-radius: 10px;
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+}
+
+#body3 {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 4em;
+    border-radius: 10px;
+    grid-row: 2 / 5;
+    grid-column: 2 / 5;
+}
+
+#footer {
+    color: gray;
+    background-color: mediumaquamarine;
+    font-family: courier new;
+    font-size: 3em;
+    border-radius: 10px;
+    grid-row: 5;
+    grid-column: 1 / 5;
+}
 
 /* end styling for grid layouts */
+
 .lab1container {
     
-
 }
 
 #lab1child1 {
